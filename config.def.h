@@ -21,7 +21,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "www", "dev", "3", "4", "5", "6", "7", "8", "msg" };
+static const char *tags[] = { "www", "dev", "fm", "sys", "5", "6", "doc", "pwd", "msg" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -34,6 +34,7 @@ static const Rule rules[] = {
 	{ "Brave-browser",    NULL,       NULL,       1 << 0,       0,           -1 },
 	{ "TelegramDesktop",  NULL,       NULL,       1 << 8,       0,           -1 },
 	{ "Keepassx2",        NULL,       NULL,       1 << 7,       0,           -1 },
+	{ "obsidian",        NULL,        NULL,       1 << 6,       0,           -1 },
 };
 
 /* layout(s) */
